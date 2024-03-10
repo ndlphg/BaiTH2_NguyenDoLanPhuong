@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #232323;
+}
+
+h1 {
+  text-align: left;
+  color: gainsboro;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #565656;
+  color: #f2f2f2;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: none;
+}
+
+#message.shown {
+  display: block;
+}
+
+#show-password {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fa-solid.fa-right-to-bracket {
+  color: gainsboro;
+}
+
+.fa-user {
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 10px;
+  color: gainsboro;
+}
+
+.fa-solid.fa-key {
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 60px;
+  color: gainsboro;
+}
+
+::placeholder {
+  color: #ccc;
+  opacity: 1; /* Safari and Firefox fix */
+}

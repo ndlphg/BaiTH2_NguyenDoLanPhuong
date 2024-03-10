@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Nguyễn Đỗ Lan Phương - Bài 2</title>
+  <link rel="stylesheet" href="Bai2.css">
+  
+</head>
+<body>
+  <div class="container">
+    <form action="#">
+<header>
+  <h2>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h2></header>
+  <nav>
+    <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu.
+    <br>Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <i>(nếu có)</i>.</p>  
+  </nav>
+    <section>
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Họ và tên">
+      </div>
+      <div class="form-group">
+        <input type="tel" id="phone" name="phone" placeholder="Số điện thoại">
+      </div>
+      <div class="form-group">
+        <select id="type" name="type">
+          <option value="customer">Chọn loại khách hàng</option>
+          <option value="vip">VIP</option>
+          <option value="loyal">Khách hàng thân thiết</option>
+          <option value="new">Khách hàng mới</option>
+          <option value="partner">Đối tác</option>
+          <option value="other">Khác...</option>
+        </select>
+      </div>
+    </section>
+    <aside>
+      <div class="form-group">
+        <input type="text" id="name" name="idcard" placeholder="Mã thẻ">
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="E-mail">
+      </div>
+    
+      <div class="form-group">
+        <input type="text" id="bill" name="bill" placeholder="Mã hóa đơn">
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" rows="5" placeholder="Nhập chi tiết mô tả"></textarea>
+      </div>
+    </aside>
+      <button type="submit">
+        GỬI GÓP Ý <i class="fab fa-facebook-messenger"></i></button>
+    </form>
+    <div class="button">
+      <button id="ok">OK</button>
+      <button id="cancel">Cancel</button>
+    </div>
+  </div>
+  <script src="Bai2.js"></script>
+</body>
+</html>
